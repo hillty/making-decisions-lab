@@ -6,11 +6,13 @@
   If it is not, console log "Coding has its challenges."
 */
 
-let lovesCode = true;
+// let lovesCode = true
 
-if (lovesCode = true){
-  console.log("I love to code!")
-};
+// if(lovesCode !== true){
+//   console.log("Coding has it's challenges.")
+// }else{
+//   console.log("I love to code!")
+// }
 
 //CODE HERE
 
@@ -28,6 +30,14 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
+// if(amysAge > brittanisAge){
+//   console.log("Amy is older.")
+// }else if(brittanisAge > amysAge){
+//   console.log("Brittani is older.")
+// }else{
+//   console.log("They are the same age.")
+// }
+
 
 ////////// PROBLEM 3 //////////
 
@@ -37,10 +47,15 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log("Amy and Brittani were born in the same year.")
+// }else{
+//   console.log("Amy and Brittani were not born in the same year.")
+// }
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
+let temperature = 65
 let rain = true
 
 /*
@@ -49,6 +64,18 @@ let rain = true
 */
 
 //CODE HERE
+
+// if(temperature >= 80 && rain === true){
+//   console.log("You should wear a t-shirt and take and umbrella.")
+// }else if(temperature >=60 && temperature <= 80 && rain === true){
+//   console.log("You should wear a rain-jacket.")
+// }else if(temperature <= 60){
+//   console.log("You should wear a jacket and carry and umbrella.")
+// }else if(temperature <= 70 && rain !== true){
+//   console.log("You should wear a t-shirt.")
+// }else{
+//   console.log("You're on ur own homie.")
+// }
 
 
 ////////// PROBLEM 5 //////////
@@ -59,6 +86,10 @@ let rain = true
 
 //CODE HERE
 
+// for(let i = 0; i <= 9; i++){
+//   console.log("Hello.")
+// }
+
 
 ////////// PROBLEM 6 //////////
 
@@ -68,6 +99,15 @@ let rain = true
 
 //CODE HERE
 
+// for(let i = 0; i <= 9; i++){
+// console.log(i+1)
+// }
+
+// same above and below:
+
+// for(let i = 1; i <= 10; i++){
+//   console.log(i)
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -76,6 +116,10 @@ let rain = true
 */
 
 //CODE HERE
+
+// for(let i = 10; i >= 0; i--){
+//   console.log(i)
+// }
 
 let score = 0
 let passingScore = 7
@@ -88,6 +132,11 @@ let passingScore = 7
 
 //CODE HERE
 
+// while(score < passingScore){
+//   console.log("Your score is not high enough")
+//   score++
+// }
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -99,10 +148,24 @@ let passingScore = 7
 
 //CODE HERE
 
-////////// PROBLEM 10 //////////
-// Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+// let changeMyMind = true
 
-//CODE HERE
+// if(changeMyMind === true){
+//   changeMyMind = false
+// }else{
+//   changeMyMind = true
+// }
+
+// // ////////// PROBLEM 10 //////////
+// // // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+
+// // //CODE HERE
+
+// if(changeMyMind !== true){
+//   changeMyMind = true
+//   console.log(changeMyMind)
+// }
+
 
 
 
@@ -114,3 +177,10 @@ let z = 5
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+
+while(z > 0){
+  for(let v = z; v > 0; v--){
+    console.log(v)
+  }
+  z--
+}
